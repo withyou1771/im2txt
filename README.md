@@ -31,10 +31,12 @@ bazel-bin/im2txt/run_inference \
   --input_files=${IMAGE_FILE}
   
  # Example output:
-  Captions for image 1.jpg:
-  
+
+Captions for image 1.jpg:
+
   0) a cat laying on top of a grass covered field . (p=0.002806)
   
   1) a black and white cat laying on top of a grass covered field . (p=0.000498)
   
-  2) a black and white cat laying on top of a green field . (p=0.000412)
+  2) a black and white cat laying on top of a green field . (p=0.000412)
+
