@@ -18,9 +18,13 @@ https://github.com/tensorflow/models/tree/master/im2txt
 
 # Generating Captions
 CHECKPOINT_PATH="${HOME}/im2txt/model/train"
+
 VOCAB_FILE="${HOME}/im2txt/data/mscoco/word_counts.txt"
+
 IMAGE_FILE="${HOME}/im2txt/data/mscoco/raw-data/val2014/COCO_val2014_000000224477.jpg"
+
 bazel build -c opt im2txt/run_inference
+
 bazel-bin/im2txt/run_inference \
   --checkpoint_path=${CHECKPOINT_PATH} \
   --vocab_file=${VOCAB_FILE} \
@@ -28,6 +32,9 @@ bazel-bin/im2txt/run_inference \
   
  # Example output:
   Captions for image 1.jpg:
+  
   0) a cat laying on top of a grass covered field . (p=0.002806)
+  
   1) a black and white cat laying on top of a grass covered field . (p=0.000498)
+  
   2) a black and white cat laying on top of a green field . (p=0.000412)
