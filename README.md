@@ -26,7 +26,6 @@ bazel-bin/im2txt/run_inference \
   --vocab_file=${VOCAB_FILE} \
   --input_files=${IMAGE_FILE}
   
-  
  # Example output:
   Captions for image 1.jpg:
   0) a cat laying on top of a grass covered field . (p=0.002806)
