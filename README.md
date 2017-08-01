@@ -1,5 +1,8 @@
 # image-caption
 
+TensorFlow 1.0.1
+python 2.7
+
 Show and Tell: A Neural Image Caption Generator
 
 A TensorFlow implementation of the image-to-text model described in the paper:
